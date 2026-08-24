@@ -41,7 +41,7 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 KAKAO_REST_API_KEY = os.getenv("KAKAO_REST_API_KEY")
 
 # 사용할 Gemini 모델명. 상수로 빼두면 모델 교체 시 이 줄만 고치면 된다.
-GEMINI_MODEL = "gemini-2.5-flash"
+GEMINI_MODEL = "gemini-3.6-flash"
 
 # Gemini의 텍스트 생성 엔드포인트 URL.
 # :generateContent 는 "이 모델로 콘텐츠를 생성하라"는 동작을 지정한다.
